@@ -2,7 +2,7 @@ package org.example;
 
 public class equipo implements liga {
     private String nombre;
-    private String jugadores;
+    private String titulares;
     private int puntos;
     private int partidosJugados;
 
@@ -11,7 +11,7 @@ public class equipo implements liga {
     }
 
     public String getJugadores() {
-        return jugadores;
+        return titulares;
     }
 
     public int getPuntos() {
@@ -27,7 +27,7 @@ public class equipo implements liga {
     }
 
     public void setJugadores(String jugadores) {
-        this.jugadores = jugadores;
+        this.titulares = jugadores;
     }
 
     public void setPuntos(int puntos) {
