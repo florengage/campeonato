@@ -10,7 +10,7 @@ public class App
 {
     public static void main( String[] args ) {
         try {
-            String url = "jdbc:mysql://localhost:3306/phpmyadmin/index.php?route=/table/structure&db=mysql&table=equipo";
+            String url = "jdbc:mysql://localhost:3306/";
             String username = "root";
             String password = "root";
             Connection connection = DriverManager.getConnection(url, username, password ) ;
